@@ -47,6 +47,3 @@ CREATE TABLE sentences AS
       WHERE a.name != bf.name and bf.size = a.size and q.child = bf.name and p.child = a.name and bf.name > a.name and p.parent = q.parent
         ORDER BY a.size;
 
--- Total size for each fur type where all of the heights differ by no more than 30% from the average height
-CREATE TABLE low_variance AS
-  SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
