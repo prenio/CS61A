@@ -1,3 +1,4 @@
+#This file was given and not edited.
 from tkinter import *
 import time
 from typing_test import *
